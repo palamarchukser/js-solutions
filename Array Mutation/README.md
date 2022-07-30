@@ -14,26 +14,3 @@
 <li><code>b[4] = a[3] + a[4] + 0    = (-2) + 3 + 0 = 1</code></li>
 </ul>
 <p>So, the resulting array after the mutation will be <code>[4, 5, -1, 2, 1]</code>.</p>
-<p><span class="markdown--header" style="color:#2b3b52;font-size:1.4em">Input/Output</span></p>
-<ul>
-<li>
-<p><strong>[execution time limit] 4 seconds (js)</strong></p>
-</li>
-<li>
-<p><strong>[input] integer n</strong></p>
-<p>An integer representing the length of the given array.</p>
-<p><em>Guaranteed constraints:</em><br>
-<code>1 ≤ n ≤ 10<sup>3</sup></code>.</p>
-</li>
-<li>
-<p><strong>[input] array.integer a</strong></p>
-<p>An array of integers that needs to be mutated.</p>
-<p><em>Guaranteed constraints:</em><br>
-<code>a.length = n</code>,<br>
-<code>-10<sup>3</sup> ≤ a[i] ≤ 10<sup>3</sup></code>.</p>
-</li>
-<li>
-<p><strong>[output] array.integer</strong></p>
-<p>The resulting array after the mutation.</p>
-</li>
-</ul>

@@ -20,25 +20,3 @@ in the usual lexicographical order, you'll compare them based on how many times 
 <code>solution(s1, s2) = "stouperwer"</code>.</li>
 </ul>
 <p>Because in both strings all symbols occur only 1 time, strings are merged as usual. You can find explanation for this example on the image in the description.</p>
-<p><span style="color:#2b3b52;font-size:1.4em">Input/Output</span></p>
-<ul>
-<li>
-<p><strong>[execution time limit] 4 seconds (js)</strong></p>
-</li>
-<li>
-<p><strong>[input] string s1</strong></p>
-<p>A string consisting only of lowercase English letters.</p>
-<p><em>Guaranteed constraints:</em><br>
-<code>1 ≤ s1.length ≤ 10<sup>4</sup></code>.</p>
-</li>
-<li>
-<p><strong>[input] string s2</strong></p>
-<p>A string consisting only of lowercase English letters.</p>
-<p><em>Guaranteed constraints:</em><br>
-<code>1 ≤ s2.length ≤ 10<sup>4</sup></code>.</p>
-</li>
-<li>
-<p><strong>[output] string</strong></p>
-<p>The string that results by merging <code>s1</code> and <code>s2</code> using your special merge function.</p>
-</li>
-</ul>

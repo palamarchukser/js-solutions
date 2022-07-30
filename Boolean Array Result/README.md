@@ -10,32 +10,3 @@ You task is to calculate a boolean array <code>result</code>, where <code>result
 <li>For <code>numbers[3] = 16</code>, there is no an integer <code>1 ≤ x ≤ 3</code>, such that <code>4 * x = 16</code>, so <code>result[3] = false</code>.</li>
 <li>For <code>numbers[4] = 5</code>, we can choose <code>x = 1</code> because <code>5 * 1 = 5</code> and <code>1 ≤ 1 ≤ 3</code>, so <code>result[4] = true</code>.</li>
 </ul>
-<p><span style="color:#2b3b52;font-size:1.4em">Input/Output</span></p>
-<ul>
-<li>
-<p><strong>[execution time limit] 4 seconds (js)</strong></p>
-</li>
-<li>
-<p><strong>[input] array.integer numbers</strong></p>
-<p>An array of integers.</p>
-<p><em>Guaranteed constraints:</em><br>
-<code>1 ≤ numbers.length ≤ 100</code>,<br>
-<code>1 ≤ numbers[i] ≤ 10<sup>6</sup></code>.</p>
-</li>
-<li>
-<p><strong>[input] integer left</strong></p>
-<p>An integer representing the lower bound for <code>x</code>.</p>
-<p><em>Guaranteed constraints:</em><br>
-<code>1 ≤ left ≤ 10<sup>4</sup></code>.</p>
-</li>
-<li>
-<p><strong>[input] integer right</strong></p>
-<p>An integer representing the upper bound for <code>x</code>.</p>
-<p><em>Guaranteed constraints:</em><br>
-<code>1 ≤ left ≤ right ≤ 10<sup>4</sup></code>.</p>
-</li>
-<li>
-<p><strong>[output] array.boolean</strong></p>
-<p>A boolean array <code>result</code> described above.</p>
-</li>
-</ul>

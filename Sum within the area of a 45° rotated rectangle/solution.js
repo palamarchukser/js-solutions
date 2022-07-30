@@ -79,6 +79,6 @@ Tests:
           [4, 3]]
         a: 1
         b: 2
-    Expected Output: 10
+    Expected Output: 7
 */
 

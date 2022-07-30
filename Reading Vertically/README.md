@@ -19,20 +19,3 @@
 <p>Since each of these strings have only one character, the answer will be concatenation of each string in order, so the answer is <code>EMILY</code>.</p>
 </li>
 </ul>
-<p><span class="markdown--header" style="color:#2b3b52;font-size:1.4em">Input/Output</span></p>
-<ul>
-<li>
-<p><strong>[execution time limit] 4 seconds (js)</strong></p>
-</li>
-<li>
-<p><strong>[input] array.string arr</strong></p>
-<p>An array of strings containing alphanumeric characters.</p>
-<p><em>Guaranteed constraints:</em><br>
-<code>1 ≤ arr.length ≤ 100</code>,<br>
-<code>1 ≤ arr[i].length ≤ 100</code>.</p>
-</li>
-<li>
-<p><strong>[output] string</strong></p>
-<p>Return the resulting string.</p>
-</li>
-</ul>

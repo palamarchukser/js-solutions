@@ -45,6 +45,4 @@ const solution = (s1, s2) => {
 }
 
 console.log(solution('dce', 'cccbd' )) //dcecccbd
-console.log(solution('super', 'tower' )) //dcecccbd
-
-
+console.log(solution('super', 'tower' )) //stouperwer

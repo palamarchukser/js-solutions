@@ -35,33 +35,3 @@ The dimensions of the rotated rectangle are defined by the number of elements al
 <p><img alt="example3" src="https://github.com/palamarchukser/js-solutions/raw/master/static/example3.gif"></p>
 </li>
 </ul>
-<p><span class="markdown--header" style="color:#2b3b52;font-size:1.4em">Input/Output</span></p>
-<ul>
-<li>
-<p><strong>[execution time limit] 4 seconds (js)</strong></p>
-</li>
-<li>
-<p><strong>[input] array.array.integer matrix</strong></p>
-<p>A matrix of integers.</p>
-<p><em>Guaranteed constraints:</em><br>
-<code>1 ≤ matrix.length, matrix[i].length ≤ 50</code>,<br>
-<code>-10<sup>3</sup> ≤ matrix[i][j] ≤ 10<sup>3</sup></code>.</p>
-</li>
-<li>
-<p><strong>[input] integer a</strong></p>
-<p>The first rotated rectangle dimension.</p>
-<p><em>Guaranteed constraints:</em><br>
-<code>1 ≤ a ≤ 25</code>.</p>
-</li>
-<li>
-<p><strong>[input] integer b</strong></p>
-<p>The second rotated rectangle dimension.<br>
-It's guaranteed that at least one rotated rectangle will fit in the given matrix.</p>
-<p><em>Guaranteed constraints:</em><br>
-<code>a ≤ b ≤ 25</code>.</p>
-</li>
-<li>
-<p><strong>[output] integer</strong></p>
-<p>The maximal sum of elements of a rotated rectangle with dimensions <code>a</code> and <code>b</code>.</p>
-</li>
-</ul>
