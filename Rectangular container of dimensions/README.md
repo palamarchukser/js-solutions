@@ -12,13 +12,13 @@
 <li>
 <p>For <code>blocks = [1, 3, 1, 3, 3]</code> and <code>height = 2</code>, the output should be <code>solution(blocks, height) = 6</code>.</p>
 <p>Here's how the blocks should be packed in a container of size <code>2 x 6</code>:<br>
-<img src="https://codesignal.s3.amazonaws.com/tasks/packBlocks/img/exp1.png?_tm=1581986490350" alt=""></p>
+<img src="https://github.com/palamarchukser/js-solutions/raw/master/static/exp1.png" alt=""></p>
 <p>Note that it wouldn't be possible to fit these blocks in a container that's any less wide than <code>6</code>.</p>
 </li>
 <li>
 <p>For <code>blocks = [2, 3, 1, 1, 1]</code> and <code>height = 2</code>, the output should be <code>solution(blocks, height) = 5</code>.</p>
 <p>Here's how the blocks should be packed in container of size <code>2 x 5</code>:<br>
-<img src="https://codesignal.s3.amazonaws.com/tasks/packBlocks/img/exp2.png?_tm=1581986490719" alt=""></p>
+<img src="https://github.com/palamarchukser/js-solutions/raw/master/static/exp2.png" alt=""></p>
 <p>It might seem like these blocks could be packed into a container of size <code>2 x 4</code>, but since we must place them in the order they appear in the <code>blocks</code> array, the width must be at least <code>5</code>.</p>
 </li>
 </ul>
