@@ -12,19 +12,4 @@
 <li>If <code>a = "xzx"</code>, <code>b = "z"</code> and <code>c = "x"</code>, then all <code>a + b = "xzxz"</code>, <code>b + c = "zx"</code> and <code>c + a = xxzx</code> are different.</li>
 </ul>
 <p>Since there are five valid ways to split <code>s</code>, the answer is <code>5</code>.</p>
-<p><span class="markdown--header" style="color:#2b3b52;font-size:1.4em">Input/Output</span></p>
-<ul>
-<li>
-<p><strong>[execution time limit] 4 seconds (js)</strong></p>
-</li>
-<li>
-<p><strong>[input] string s</strong></p>
-<p>A string to split.</p>
-<p><em>Guaranteed constraints:</em><br>
-<code>3 ≤ s.length ≤ 100</code>.</p>
-</li>
-<li>
-<p><strong>[output] integer</strong></p>
-<p>The number of ways to split the given string.</p>
-</li>
-</ul>
+

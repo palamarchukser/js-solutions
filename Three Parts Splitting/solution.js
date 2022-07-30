@@ -1,5 +1,5 @@
 /**
- * Array mutation
+ * Number of ways of splitting
  *
  * @param {String} s
  * @returns {Number}

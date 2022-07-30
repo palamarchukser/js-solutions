@@ -12,26 +12,3 @@
 </ul>
 </li>
 </ul>
-<p><span class="markdown--header" style="color:#2b3b52;font-size:1.4em">Input/Output</span></p>
-<ul>
-<li>
-<p><strong>[execution time limit] 4 seconds (js)</strong></p>
-</li>
-<li>
-<p><strong>[input] array.integer a</strong></p>
-<p>An array of integers from which two numbers should be picked. The elements are not necessarily all unique.</p>
-<p><em>Guaranteed constraints:</em><br>
-<code>1 ≤ a.length ≤ 10<sup>5</sup></code>,<br>
-<code>1 ≤ a[i] ≤ 10<sup>9</sup></code>.</p>
-</li>
-<li>
-<p><strong>[input] integer k</strong></p>
-<p>An integer, which should be a divisor of the sum.</p>
-<p><em>Guaranteed constraints:</em><br>
-<code>1 ≤ k ≤ 10<sup>9</sup></code>.</p>
-</li>
-<li>
-<p><strong>[output] integer64</strong></p>
-<p>The number of ways to pick two different numbers from <code>a</code>, such that their sum is divisible by <code>k</code>.</p>
-</li>
-</ul>
